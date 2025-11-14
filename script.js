@@ -7,6 +7,7 @@ const products = [
   { name: "Running Shoes", price: 1499, image: "images/shoes2.jpg" },
   { name: "Leather Bag", price: 1599, image: "images/bag1.jpg" },
   { name: "Wireless Headphones", price: 2999, image: "images/headphone1.jpg" },
+  // Add more products if needed
 ];
 
 products.forEach(product => {
@@ -20,4 +21,3 @@ products.forEach(product => {
   `;
   productsContainer.appendChild(div);
 });
-
